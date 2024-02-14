@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#toggle
+{
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 65px;
+    border-radius: 160px;
+    cursor: pointer;
+    background: #222;
+    transition: 0.5s;
+    box-shadow: inset 0 8px 60px rgba(0,0,0,0.1),
+                inset 0 8px 8px rgba(0,0,0,0.1),
+                inset 0 -4px 4px rgba(0,0,0,0.1);
+
+}
+#toggle .indicator
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 65px;
+    background: linear-gradient( to bottom,#444,#222);
+    border-radius: 50%;
+    transform: scale(0.5);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0,0.5);
+                 inset: 0 4px 4px rgba(255,255,255,0.2);
+                 inset: 0 -4px 4px rgba(255,255,255,0.2);
+                 transition: 0.5s;
+}
+.light-mode {
+    background-color: #fff; /* White background in light mode */
+    color: #333;
+  }
+  
+  #toggle {
+    background-color: #fff; /* Change the button color to white in light mode */
+  }
+  
+  /* Define dark mode styles */
+  .dark-mode {
+    background-color: #333; /* Dark background in dark mode */
+    color: #fff;
+  }
+  
+  #toggle.dark-mode {
+    background-color: #333; /* Change the button color to dark in dark mode */
+  }

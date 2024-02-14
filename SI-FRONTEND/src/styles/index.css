@@ -1,0 +1,236 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Moneserrat',sans-serif;
+}
+
+body
+{
+  height: 100vh !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #091f54;
+}
+.organize
+{
+  color: rgb(246, 246, 246);
+}
+
+.track
+{
+  color: rgb(246, 246, 246);
+}
+
+.manage
+{
+  color: rgb(246, 246, 246);
+}
+.organize:hover
+{
+  color: rgb(50, 15, 245);
+  transition: 1s ease-in-out;
+  font-weight: bolder;
+}
+
+.track:hover
+{
+  color: rgb(50, 15, 245);
+  transition: 1s ease-in-out;
+  font-weight: bolder;
+}
+
+.manage:hover
+{
+  color: rgb(50, 15, 245);
+  transition: 1s ease-in-out;
+  font-weight: bolder;
+}
+.home-p
+{
+  color: rgb(128, 126, 126);
+  border-radius: 40px;
+}
+
+.main-container 
+{
+background: url('../assets//dark.jpg');
+  padding: 70px;
+  height: 10vh;
+  
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.main-navbar
+{
+  background-color: #031952;
+  height: 100vh;
+}
+.navbar-nav 
+{
+  padding: 40% 20%;
+}
+
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(216, 217, 221);
+}
+textarea[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(216, 217, 221);
+ 
+}
+input[type=password] {
+
+  background: transparent !important;
+  border: none;
+  border-bottom: 1px solid rgb(216, 217, 221);
+
+}
+textarea[type=password] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(216, 217, 221);
+
+}
+input
+{
+  border-bottom: 2px solid grey;
+  border-top:   2px solid #091f54;
+  border-left:   2px solid #091f54;
+  border-right:   2px solid #091f54;
+  width: 100%;
+
+
+  
+}
+select{
+  border-bottom: 2px solid grey;
+  border-top:   2px solid #091f54;
+  border-left:   2px solid #091f54;
+  border-right:   2px solid #091f54;
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(216, 217, 221);
+
+  
+}
+.blue-text
+{
+  color: #091f54;
+}
+.form 
+{
+  margin: 60px 0px;
+}
+.horizontal-navbar
+{
+  background-color:#293562 ;
+  
+}
+.horizontal-navbar-2
+{
+  background-color:#293562 ;
+  margin-left: 10%;
+  
+}
+.dash-menu 
+{
+
+
+    width: 100%;
+    background-color: rgb(233, 238, 242);;
+   
+
+ 
+ 
+}
+.menu-icons
+{
+ 
+  border-radius: 20px;
+}
+.circle-menu
+{
+  background-color: rgb(64, 69, 132);
+  border-radius: 50px;
+  border-right: 2px solid gray;
+
+}
+.icon-user 
+{
+  margin-left: 50%;
+}
+.home:hover
+{
+  box-shadow: 5px 5px 5px 5px rgba(3, 7, 90, 0.25);
+  color: white;
+  transition: 2s ease-in-out;
+  font-weight: bolder;
+}
+.users
+{
+
+height: 20vh !important;
+  width: 100%;
+
+}
+
+.btn-user
+{
+  float: right;
+  padding: 12px 28px;
+  background-color: #031952;
+  color: white;
+  border-radius: 30px;
+}
+.text-user
+{
+color: #031952;
+}
+
+.transaction-2
+{
+  background-color: #e9e6e6;
+}
+.circle-menu
+{
+  background-color: rgb(64, 69, 132);
+  border-radius: 50px;
+  border-right: 2px solid rgb(223, 220, 220);
+  margin-left: 5px;
+}
+.circle-menu-1
+{
+  background-color: rgb(64, 69, 132);
+  border-radius: 50px;
+  border-right: 2px solid gray;
+  margin-left: 150px;
+}
+.icon-user 
+{
+  margin-left: 50%;
+}
+

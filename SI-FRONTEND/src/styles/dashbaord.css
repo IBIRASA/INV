@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.vector
+{
+  width: 35%;
+}
+.img-container
+{
+  background:url('../assets/inventory.jpg');
+  background: url('../assets/inventory.jpg');
+  height: 100vh;
+  background-position: center;
+  background-size: cover; 
+  position: relative;
+
+
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+  height: 94vh;
+}
+.dashboard {
+  --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+  
+}
+.logo {
+  text-align: center;
+  padding: 20px 0px;
+  color: black;
+  align-items: center;
+  display: flex;
+flex: 1;
+
+}
+.line {
+  background-color: red;
+}
+.menu--list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.menu--list .item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  font-weight: 200;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  color: #abcde2;
+  width: 100%;
+}
+.menu--list .item:hover {
+  background-color: #abcde2;
+  color: rgb(5, 5, 62) !important;
+  width: 180%;
+}
+
+/*Content*/
+.dashboard {
+  display: flex;
+  gap: 80px;
+}
+.dashboard-1 {
+
+  gap: 80px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity))
+}
+.absolute {
+  color: #091f54;
+}
+.dashboard-content {
+  background-color: rgb(233, 238, 242);
+  flex: 1;
+  padding: 0rem;
+  display: flex;
+  gap: 1.5rem;
+  height: 100vh !important;
+  justify-content: space-between;
+  margin-top: 0%;
+}
+.content {
+  width: 100%;
+}
+.content--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(245, 247, 248);
+  
+ 
+}
+.shadow-bottom {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.card-container {
+  display: flex;
+
+  align-items: center;
+
+}
+.w-screen-w
+{
+  width: 100%;
+}
+.h-screen-h
+{
+  height:75vh;
+}
+.card {
+ 
+
+  
+  transition: 0.5s ease-in-out;
+
+
+} */
+.card:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+.card--cover {
+  background-color: transparent;
+  font-size: 1.5rem;
+
+  color: #969393;
+}
+.card--title {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  color: #141415;
+  border: 10px;
+  margin-right: 60%;
+}
+.list-header {
+  display: flex;
+  margin: 2.5rem 0;
+  justify-content: space-between;
+}
+.list-header h2 {
+  color: #526d82;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.list {
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+  transition: 0.3s ease-in-out;
+  height: 40px;
+}
+
+.teacher-detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #526d82;
+}
+.teacher-detail img {
+  width: 50px;
+  background-color: #dde6ed;
+  border-radius: 50%;
+}
+.list {
+  background: #dde6ed;
+  border-radius: 10px;
+}
+
+.user-detail {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hello {
+  background-color: #dde6ed;
+  flex: 1;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.user-detail .username {
+  color: #526d82;
+}
+.user-courses {
+  background-color: #fff;
+  flex: 1;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.input-dash {
+  background-color: white;
+  border: 2px solid grey;
+  border-right: none;
+}
+.course:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
+.links-btn {
+  border: 12px 24px;
+  color: white;
+}
+.course {
+  background-color: #dde6ed;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.course-detail {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.course-cover {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.course .duration {
+  font-size: 12px;
+}
+.finance-history-table {
+  margin: 2px 20px;
+}
+
+.finance-table {
+  width: 93%;
+  margin-left: 4%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+.finance-table td {
+  border-bottom: 1px solid rgb(218, 216, 216);
+  border-right: 1px solid rgb(218, 216, 216);
+}
+
+.finance-table th,
+.finance-table td{
+  padding: 13px;
+  text-align: left;
+  border-bottom: 1px solid rgb(218, 216, 216);
+  border-right: 1px solid rgb(218, 216, 216);
+}
+
+.finance-table th {
+  
+  color: white;
+}
+
+.finance-table tbody tr:hover {
+  background-color: #d2dee8; /* Light blue background on hover */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.fin-table {
+  width: 93%;
+  margin-left: 4%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.fin-table th,
+.fin-table td {
+  padding: 11px;
+  text-align: left;
+}
+
+.fin-table th {
+  background-color: rgb(44, 44, 44); /* Green background for header */
+  color: white;
+}
+
+.even-row {
+  background-color: #ffffff; /* White background for even rows */
+}
+
+.odd-row {
+  background-color: #f0f0f0; /* Gray background for odd rows */
+}
+
+.icon-cell {
+  padding: 0;
+  text-align: center;
+}
+
+/* Optional: Add some styling to the FontAwesome icons */
+.icon-cell svg {
+  color: #252527; /* Green color for the icons */
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.icon-cell:hover svg {
+  color: #777fb3; /* Darker green color on hover */
+}
+.francs {
+  width: 100%;
+  height: 20px;
+  background-color: black;
+  margin-top: 2%;
+}
+.white-me {
+  color: white;
+}
+.today {
+  color: rgb(231, 227, 227);
+}
+
+.button-request {
+  float: right;
+}
+.francs {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(30, 30, 100);
+}
+.white-me {
+  color: white;
+}
+.today {
+  color: rgb(76, 76, 178);
+}
+.dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.w-screen-90
+{
+  width: 84.5vw;
+}
+#password
+{
+color: black !important;
+}
+.whiteee
+{
+  color: white !important;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(65, 65, 134);  /* Blue color */
+  border-radius: 50%; /* Make it a circle */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle i {
+  color: white; /* Icon color */
+  font-size: 48px; /* Icon size */
+}
